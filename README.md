@@ -6,7 +6,7 @@ This repository contains code that performs market basket analysis and visualize
 Data Import
 The code begins by importing the necessary libraries and reading the data from three CSV files: order.csv, menu.csv, and detail.csv. The data is loaded into separate pandas DataFrames named df, df1, and df2, respectively.
 
-#Data Merging
+## Data Merging
 The DataFrames are merged into one DataFrame named merged_df using the pd.merge() function. First, df2 is merged with a subset of columns from df1 to include the product information. Then, merged_df is further merged with a subset of columns from df to include the order information. Redundant columns are dropped, and the column name is renamed for clarity.
 
 #Exploratory Data Analysis (EDA)
